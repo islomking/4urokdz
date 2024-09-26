@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.main{
+    width: 1440px;
+    height: 1024px;
+    border: 2px solid red;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 85px 180px;
+}
+.sinok{
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    background-color:  #995DB5;
+    padding: 8px;
+}
+.vnuchka{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 8px;
+}
+.perviy{
+    display: flex;
+    gap: 8px;
+}
+.vtoroy{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.tretiy{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    
+}
+.chetvortiy{
+    justify-content: space-between;
+    display: flex;
+}
+.patiy{
+    display: flex;
+    gap: 8px;
+}
+.shestoy{
+justify-content: flex-end;
+display: flex;
+gap: 8px;
+}
+.sedmoy{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.vosmoy{
+    display: flex;
+    justify-content: space-between;
+}
+.devatiy{
+    display: flex;
+    gap: 8px;
+}
+.desad{
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+}
+.odinadsad{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.dvenatsad{
+    display: flex;
+    justify-content: space-between;
+}
